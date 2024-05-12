@@ -1,0 +1,66 @@
+.left-side {
+    display: flex;
+    justify-content: center;
+}
+
+.login-form {
+    padding: 250px;
+    color: #313957;
+    width: 386px;
+    height: 569px;
+    gap: 48px;
+}
+
+.intro {
+    font-family: "Montserrat Alternates";
+    gap: 28px;
+}
+
+.form {
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+.input {
+    border-radius: 12px;
+    width: 388px;
+    height: 48px;
+    margin-top: 5px;
+    border: 1px solid #D4D7E3;
+}
+
+::-webkit-input-placeholder {
+    color: #8897AD;
+    padding-left: 15px;
+}
+
+.form--password {
+    color: #0C1421;
+    margin-top: 20px;
+}
+
+.form--forgot--password {
+    color: #1E4AE9;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.form--enter {
+    background-color: #162D3A;
+    font-size: 17px;
+    color: white;
+    border-radius: 12px;
+    padding: 2px 0px 2px 0px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.not--account {
+    font-family: "Roboto";
+    text-align: center;
+    margin-top: 40px;
+}
+
+.not--account--reg {
+    color: #1E4AE9;
+}
